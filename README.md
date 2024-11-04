@@ -48,7 +48,7 @@ psicopedagogia/
 │
 ├── app.py                      # Código principal do aplicativo Flask
 └── psicopedagogia.db           # Banco de dados SQLite
-
+```
 
 
 
