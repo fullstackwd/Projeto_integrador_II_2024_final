@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2>Editar Registro Financeiro</h2>
+<form method="POST">
+    <label>Descrição:</label>
+    <input type="text" name="descricao" value="{{ financeiro[1] }}" required>
+    <label>Valor:</label>
+    <input type="number" step="0.01" name="valor" value="{{ financeiro[2] }}" required>
+    <label>Tipo:</label>
+    <select name="tipo" required>
+        <option value="Receita" {% if financeiro[3] == 'Receita' %}selected{% endif %}>Receita</option>
+        <option value="Despesa" {% if financeiro[3] == 'Despesa' %}selected{% endif %}>Despesa</option>
+    </select>
+    <label>Data:</label>
+    <input type="date" name="data" value="{{ financeiro[4] }}" required>
+    <button type="submit">Salvar</button>
+</form>
+{% endblock %}

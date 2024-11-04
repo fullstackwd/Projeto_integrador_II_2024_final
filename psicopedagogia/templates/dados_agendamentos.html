@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2>Dados de Agendamentos</h2>
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Paciente ID</th>
+            <th>Data</th>
+            <th>Hora</th>
+            <th>Ações</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for agendamento in agendamentos %}
+        <tr>
+            <td>{{ agendamento[0] }}</td>
+            <td>{{ agendamento[1] }}</td>
+            <td>{{ agendamento[2] }}</td>
+            <td>{{ agendamento[3] }}</td>
+            <td>
+                <a href="{{ url_for('apagar_agendamento', id=agendamento[0]) }}" class="btn-delete">Apagar</a>
+                <a href="{{ url_for('editar_agendamento', id=agendamento[0]) }}" class="btn-edit">Editar</a>
+            </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock %}

@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Agendamento</h2>
+<form method="POST">
+    <label>Paciente ID:</label>
+    <input type="number" name="paciente_id" required>
+    <label>Data:</label>
+    <input type="date" name="data" required>
+    <label>Hora:</label>
+    <input type="time" name="hora" required>
+    <button type="submit">Agendar</button>
+</form>
+{% endblock %}

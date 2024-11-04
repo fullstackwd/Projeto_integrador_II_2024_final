@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2>Bem-vindo ao Sistema de Gestão Psicopedagógica</h2>
+<p>Este é o painel inicial.</p>
+
+<div class="image-container">
+    <img src="{{ url_for('static', filename='img/simbolo-aparelho-auditivo-150x150-telebobina-segundo-topico.webp') }}" alt="Aparelho Auditivo" class="homepage-image">
+    <img src="{{ url_for('static', filename='img/simbolo-de-acessiblidade-visual2-cao-guia.webp') }}" alt="Cão Guia" class="homepage-image">
+    <img src="{{ url_for('static', filename='img/simbolo-de-acessiblidade-visual3-braille.webp') }}" alt="Braille" class="homepage-image">
+    <img src="{{ url_for('static', filename='img/simbolo-de-deficiencia-fisica-Cadeirante.webp') }}" alt="Cadeirante" class="homepage-image">
+    <img src="{{ url_for('static', filename='img/simbolo-deficiencia-intelectual.webp') }}" alt="Deficiência Intelectual" class="homepage-image">
+    <img src="{{ url_for('static', filename='img/simbolo-de-libras-150x150.webp') }}" alt="Libras" class="homepage-image">
+    <img src="{{ url_for('static', filename='img/simbolo-nanismo.webp') }}" alt="Nanismo" class="homepage-image">
+    <img src="{{ url_for('static', filename='img/simbolos-de-acessibilidade-deficincia-auditiva-150x150-1.webp') }}" alt="Deficiência Auditiva" class="homepage-image">
+</div>
+{% endblock %}

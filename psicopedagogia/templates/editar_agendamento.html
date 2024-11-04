@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2>Editar Agendamento</h2>
+<form method="POST">
+    <label>Paciente ID:</label>
+    <input type="number" name="paciente_id" value="{{ agendamento[1] }}" required>
+    <label>Data:</label>
+    <input type="date" name="data" value="{{ agendamento[2] }}">
+    <label>Hora:</label>
+    <input type="time" name="hora" value="{{ agendamento[3] }}">
+    <button type="submit">Salvar</button>
+</form>
+{% endblock %}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gestão Psicopedagógica</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <header>
+        <h1 class="main-title">Gestão de Serviços Neuropsicopedagógicos</h1>
+    </header>
+    <nav>
+        <a href="{{ url_for('index') }}">Início</a>
+        <a href="{{ url_for('cadastro_paciente') }}">Cadastro de Pacientes</a>
+        <a href="{{ url_for('cadastro_responsavel') }}">Cadastro de Responsáveis</a>
+        <a href="{{ url_for('agendamento') }}">Agendamento</a>
+        <a href="{{ url_for('financeiro') }}">Financeiro</a>
+        <a href="{{ url_for('dados_registrados') }}">Dados Registrados</a>
+        <a href="{{ url_for('dados_agendamentos') }}">Dados Agendamentos</a>
+        <a href="{{ url_for('dados_financeiros') }}">Dados Financeiros</a>
+    </nav>
+   
+    <div class="container">
+        {% block content %}{% endblock %}
+    </div>
+    <footer>
+        <p>Projeto Integrador 2 - Univesp - 2 semestre de 2024</p>
+    </footer>
+</body>
+</html>
