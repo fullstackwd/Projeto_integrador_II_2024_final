@@ -26,12 +26,15 @@ Este repositório contém o código-fonte de um **Sistema de Gestão Psicopedag�
 ## Estrutura do Projeto
 
 
+# Estrutura do Projeto
+
+```bash
 psicopedagogia/
 │
 ├── static/
 │   ├── css/
-│   │   └── styles.css  # Estilos do frontend
-│   └── img/            # Imagens utilizadas no projeto
+│   │   └── styles.css          # Estilos do frontend
+│   └── img/                    # Imagens utilizadas no projeto
 │
 ├── templates/
 │   ├── base.html               # Template base
@@ -43,8 +46,9 @@ psicopedagogia/
 │   ├── editar_agendamento.html # Formulário para editar agendamento
 │   └── editar_financeiro.html  # Formulário para editar financeiro
 │
-├── app.py    # Código principal do aplicativo Flask
-└── psicopedagogia.db # Banco de dados SQLite
+├── app.py                      # Código principal do aplicativo Flask
+└── psicopedagogia.db           # Banco de dados SQLite
+
 
 
 
