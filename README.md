@@ -1,7 +1,5 @@
 # Projeto-Integrador-II-2024
 
-### README.md
-
 # Sistema de Gestão Psicopedagógica
 
 Este repositório contém o código-fonte de um **Sistema de Gestão Psicopedagógica** desenvolvido para auxiliar profissionais na administração eficiente de seus atendimentos. O sistema oferece funcionalidades para o gerenciamento de pacientes, agendamentos, finanças, e mais, através de uma interface web simples e moderna.
@@ -100,7 +98,7 @@ Este projeto é desenvolvido como parte de um **Projeto Integrador 2 - Univesp -
 ---
 
 Desenvolvido como parte do **Projeto Integrador 2** do curso da **Univesp**.
-```
+
 
 
  
