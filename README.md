@@ -2,7 +2,6 @@
 
 ### README.md
 
-```markdown
 # Sistema de Gestão Psicopedagógica
 
 Este repositório contém o código-fonte de um **Sistema de Gestão Psicopedagógica** desenvolvido para auxiliar profissionais na administração eficiente de seus atendimentos. O sistema oferece funcionalidades para o gerenciamento de pacientes, agendamentos, finanças, e mais, através de uma interface web simples e moderna.
@@ -26,7 +25,7 @@ Este repositório contém o código-fonte de um **Sistema de Gestão Psicopedag�
 
 ## Estrutura do Projeto
 
-```
+
 psicopedagogia/
 │
 ├── static/
