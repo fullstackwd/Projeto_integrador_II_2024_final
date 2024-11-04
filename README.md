@@ -47,6 +47,7 @@ psicopedagogia/
 └── psicopedagogia.db # Banco de dados SQLite
 
 
+
 ## Como Executar o Projeto
 
 ### Pré-requisitos
